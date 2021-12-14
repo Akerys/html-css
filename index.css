@@ -27,3 +27,7 @@ body {
     background-color: lightyellow;
     font: caption;
 }
+
+li:hover{
+    background-color: lightcoral;
+}
