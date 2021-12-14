@@ -6,7 +6,7 @@ table, th, td{
 }
 
 th, h1{
-    background-color: rgb(2, 20, 77);
+    background-color: rgb(0, 6, 125);
     color:white;
     text-align: center;
 }
@@ -17,4 +17,12 @@ th, h1{
 
 h1{
     border-radius: 10px;
+}
+
+tr:nth-child(even) {
+    background: #CCC
+}
+
+tr:nth-child(odd) {
+    background: #FFF
 }
