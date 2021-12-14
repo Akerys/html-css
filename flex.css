@@ -1,13 +1,40 @@
 body {
-    display: flex;
+    font: caption;
+    font-weight: bolder;
 }
 
-.header{
+.flex {
     display: flex;
+    width: 100%
+}
+
+header{
     justify-content: center;
     background-color: lightskyblue;
+    text-align: center;
 }
 
-.zone1{
+nav{
+    justify-content: flex-start;
+    background-color: lightpink;
+}
+
+main{
+    justify-content: flex-end;
+    background-color: lightgreen;
+    width: 70%;
+    display: flex;
+}
+
+section{
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: plum;
+    height: 200px;
+    width: 30%;
+}
+
+footer{
     justify-content: center;
+    background-color: tomato;
 }
